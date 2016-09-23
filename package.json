@@ -1,6 +1,6 @@
 {
   "name": "npm-jga-commonlib",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Basic library",
   "main": "npm-jga-commonlib.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jgaspard-fa.git"
+    "url": "https://github.com/jgaspard-fa.git"
   },
   "keywords": [
     "Angular",
