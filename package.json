@@ -1,6 +1,6 @@
 {
   "name": "npm-jga-commonlib",
-  "version": "0.1.4",
+  "version": "0.1.8",
   "description": "Basic library",
   "main": "npm-jga-commonlib.js",
   "scripts": {
@@ -23,6 +23,9 @@
     "url": "https://github.com/jgaspard-fa/issues"
   },
   "homepage": "https://github.com/jgaspard-fa#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "devDependencies": {
     "typescript": "2.0.2"
   },
@@ -36,6 +39,8 @@
     "@angular/platform-browser-dynamic": "2.0.0",
     "@angular/platform-server": "2.0.0",
     "@angular/router": "3.0.0",
-    "rxjs": "5.0.0-beta.12"
+    "npm-release": "1.0.0",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.21"
   }
 }
