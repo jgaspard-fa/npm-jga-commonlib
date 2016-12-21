@@ -67,7 +67,7 @@
                         <name>project.released.version</name>
                         <value>${project.version}</value>
                         <regex>-SNAPSHOT</regex>
-                        <replacement></replacement>
+                        <replacement />
                         <failIfNoMatch>false</failIfNoMatch>
                     </configuration>
                     <dependencies>
