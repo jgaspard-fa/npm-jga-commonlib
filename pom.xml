@@ -50,13 +50,6 @@
                             <goals>
                                 <goal>regex-property</goal>
                             </goals>
-                            <configuration>
-                                <name>project.released.version</name>
-                                <value>${project.parent.version}</value>
-                                <regex>-SNAPSHOT</regex>
-                                <replacement></replacement>
-                                <failIfNoMatch>false</failIfNoMatch>
-                            </configuration>
                         </execution>
                         <execution>
                             <phase>generate-sources</phase>
@@ -70,6 +63,13 @@
                             </configuration>
                         </execution>
                     </executions>
+                    <configuration>
+                        <name>project.released.version</name>
+                        <value>${project.version}</value>
+                        <regex>-SNAPSHOT</regex>
+                        <replacement></replacement>
+                        <failIfNoMatch>false</failIfNoMatch>
+                    </configuration>
                     <dependencies>
                         <dependency>
                             <groupId>org.apache.logging.log4j</groupId>
@@ -107,16 +107,17 @@
                             <goals>
                                 <goal>exec</goal>
                             </goals>
-                            <configuration>
-                                <executable>release-it</executable>
-                                <arguments>
-                                    <argument>${project.released.version}</argument>
-                                    <argument>-i=${project.released.version}</argument>
-                                    <argument>-n</argument>
-                                </arguments>
-                            </configuration>
+
                         </execution>
                     </executions>
+                    <configuration>
+                        <executable>release-it</executable>
+                        <arguments>
+                            <argument>${project.released.version}</argument>
+                            <argument>-i=${project.released.version}</argument>
+                            <argument>-n</argument>
+                        </arguments>
+                    </configuration>
                     <dependencies>
                         <dependency>
                             <groupId>org.apache.logging.log4j</groupId>
