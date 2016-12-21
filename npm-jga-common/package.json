@@ -5,7 +5,7 @@
   "main": "npm-jga-commonlib.js",
   "scripts": {
     "watch": "tsc -p src -w",
-    "build": "rm -rf lib && tsc -p src"
+    "build:prod": "rm -rf lib && tsc -p src"
   },
   "repository": {
     "type": "git",
