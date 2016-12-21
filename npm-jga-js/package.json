@@ -1,8 +1,8 @@
 {
-  "name": "npm-jga-commonlib",
+  "name": "npm-jga-js",
   "version": "0.3.24-SNAPSHOT",
   "description": "Basic library",
-  "main": "npm-jga-commonlib.js",
+  "main": "npm-jga.js",
   "scripts": {
     "watch": "tsc -p src -w",
     "build:prod": "rm -rf lib && tsc -p src"
