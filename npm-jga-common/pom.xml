@@ -70,7 +70,10 @@
                 <configuration>
                     <executable>release-it</executable>
                     <arguments>
-                        <argument>${project.released.version} -n -p false -v</argument>
+                        <argument>${project.released.version}</argument>
+                        <argument>-d</argument>
+                        <argument>-n</argument>
+                        <argument>-p false</argument>
                     </arguments>
                 </configuration>
             </plugin>
