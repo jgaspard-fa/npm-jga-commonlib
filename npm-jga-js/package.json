@@ -1,6 +1,6 @@
 {
   "name": "npm-jga-js",
-  "version": "0.12.0-SNASPHOT",
+  "version": "0.11.0",
   "description": "Basic library",
   "main": "npm-jga.js",
   "scripts": {
