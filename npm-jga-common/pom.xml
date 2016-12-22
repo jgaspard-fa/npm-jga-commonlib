@@ -3,7 +3,7 @@
     <parent>
         <artifactId>npm-jga-commonlib</artifactId>
         <groupId>org.sunrise</groupId>
-        <version>0.3.25</version>
+        <version>0.3.26</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -14,10 +14,22 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>build-helper-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>generate-sources</id>
+                        <phase>none</phase>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>validate</id>
+                        <phase>none</phase>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>com.github.eirslett</groupId>
