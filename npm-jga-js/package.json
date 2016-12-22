@@ -1,6 +1,6 @@
 {
   "name": "npm-jga-js",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Basic library",
   "main": "npm-jga.js",
   "scripts": {
