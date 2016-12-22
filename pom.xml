@@ -104,7 +104,7 @@
                             </configuration>
                         </execution>
                         <execution>
-                            <id>npm-release-it</id>
+                            <id>npm-version</id>
                             <phase>none</phase>
                             <goals>
                                 <goal>exec</goal>
@@ -124,7 +124,7 @@
                         </dependency>
                     </dependencies>
                     <configuration>
-                        <executable>uuu</executable>
+                        <executable>npm-version</executable>
                         <arguments>
                             <argument>${project.released.version}</argument>
                         </arguments>

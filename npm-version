@@ -1,7 +1,7 @@
 npm --no-git-tag-version version $1
 cd ..
 git add .
-git commit -m \"message\"
+git commit -m \"change versions in package.json\"
 git push
 git checkout develop
 git merge release-$1  -s recursive -Xours
