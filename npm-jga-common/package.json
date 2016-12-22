@@ -1,6 +1,6 @@
 {
   "name": "npm-jga-commonlib",
-  "version": "0.19.0",
+  "version": "0.20.0-SNAPSHOT",
   "description": "Basic library",
   "main": "npm-jga-commonlib.js",
   "scripts": {
