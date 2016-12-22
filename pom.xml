@@ -111,14 +111,6 @@
                             </goals>
                         </execution>
                     </executions>
-                    <configuration>
-                        <executable>release-it</executable>
-                        <arguments>
-                            <argument>${project.released.version}</argument>
-                            <argument>-i=${project.released.version}</argument>
-                            <argument>-n</argument>
-                        </arguments>
-                    </configuration>
                     <dependencies>
                         <dependency>
                             <groupId>org.apache.logging.log4j</groupId>
@@ -131,6 +123,13 @@
                             <version>2.6.1</version>
                         </dependency>
                     </dependencies>
+                    <configuration>
+                        <executable>uuu</executable>
+                        <arguments>
+                            <argument>${project.released.version}</argument>
+                        </arguments>
+                        <skip>true</skip>
+                    </configuration>
                 </plugin>
                 <plugin>
                     <groupId>com.github.eirslett</groupId>
