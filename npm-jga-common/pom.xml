@@ -37,7 +37,7 @@
             <plugin>
                 <groupId>com.github.eirslett</groupId>
                 <artifactId>frontend-maven-plugin</artifactId>
-                <!--<executions>
+                <executions>
                     <execution>
                         <id>publish</id>
                         <goals>
@@ -47,7 +47,7 @@
                             <arguments>publish</arguments>
                         </configuration>
                     </execution>
-                </executions>-->
+                </executions>
             </plugin>
         </plugins>
     </build>
