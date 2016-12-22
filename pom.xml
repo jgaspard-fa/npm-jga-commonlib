@@ -112,7 +112,7 @@
                         </execution>
                     </executions>
                     <configuration>
-                        <executable>release-it</executable>
+                        <executable>npm-release.sh</executable>
                         <arguments>
                             <argument>${project.released.version}</argument>
                             <argument>-i=${project.released.version}</argument>
